@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Staatliches&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(252deg, #1E1E2F -1.29%, #00A8E8 101.68%) no-repeat center center;
+    background-size: cover;
+    height: 100gvh;
+    width: 100%;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.cabecalho-menu {
+    display: flex;
+    justify-content: center;
+    gap: 6rem;
+    width: 100%;
+}
+
+.cabecalho-menu-item {
+    font-family: 'Poppins', sans-serif;
+    color: #f5f5f5;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.conteudo {
+    margin-bottom: 1.35rem;
+    border-top: 0.4px solid #f5f5f5;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+    width: 40%;
+    padding: 4rem;
+}
+
+.conteudo-principal-escrito-titulo {
+    font-family: 'Poppins', sans-serif;
+    color: #f5f5f5;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.conteudo-principal-escrito-subtitulo {
+    font-family: 'Inter', sans-serif;
+    color: #f5f5f5;
+    font-family: 24px;
+    font-weight: 400;
+}
+
+.conteudo-principal-escrito-botao {
+    background-color: #ff5722;
+    width: 146px;
+    height: 35px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
+    font-family: 'Poppins', sans-serif;
+    color: #f5f5f5;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.conteudo-principal-escrito-botao:hover {
+    background-color: #aa5e49;
+}
+
+.conteudo-principal-imagem {
+    width: 35vw;
+}
+
+.conteudo-secundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.3rem;
+    margin-top: 1.2rem;
+}
+
+.conteudo-secundario-titulo {
+    border-top: 0.4px solid #f5f5f5;
+    padding-top: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+    color: #f5f5f5;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.conteudo-secundario-paragrafo {
+    display: block;
+    font-family: 'Inter', sans-serif;
+    color: #f5f5f5;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: justify;
+    padding-bottom: 1.6rem;
+    max-width: 80%;
+}
+
+.rodape {
+    border-top: 0.4px solid #f5f5f5;
+    padding: 1.5rem;
+}
+
+.rodape-copy {
+    font-family: 'Inter', sans-serif;
+    color: #f5f5f5;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.conteudo-tecnologia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.3rem;
+    margin-top: 1.2rem;
+}
+
+.conteudo-tecnologia-titulo {
+    border-top: 0.4px solid #f5f5f5;
+    padding-top: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+    color: #f5f5f5;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.conteudo-tecnologia-logos {
+    display: flex;
+    gap: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.conteudo-projetos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.3rem;
+    margin-top: 1.2rem;
+}
+
+.conteudo-projetos-titulo {
+    border-top: 0.4px solid #f5f5f5;
+    padding-top: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+    color: #f5f5f5;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    body {
+        font-size: 14px;
+        margin: 15px;
+    }
+}
