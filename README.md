@@ -23,7 +23,7 @@ Confira alguns dos projetos nos quais estou trabalhando:
 
 1. **Portfólio Web**: Um site responsivo que destaca minhas habilidades e projetos.
 
-👉 **[Ver Projetos](#)** *(Link para o seu portfólio ou repositórios do GitHub)*
+👉 **[Ver Projetos](https://santospinhodev.github.io/portfolio/)** *(Link para o seu portfólio ou repositórios do GitHub)*
 
 ## 📫 Contato
 
