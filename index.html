@@ -5,56 +5,65 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Portfolio</title>
+    <title>Portfólio de Roodrigo Santos</title>
 </head>
 
 <body>
-
-    <header class="cabecalho">
-        <nav class="cabecalho-menu">
-            <a class="cabecalho-menu-item" href="#sobre-mim">Sobre</a>
-            <a class="cabecalho-menu-item" href="#meus-projetos">Projetos</a>
-            <a class="cabecalho-menu-item" href="#contatos">Contato</a>
-            <a class="cabecalho-menu-item" href="#tecnologias">Tecnologias</a>
+    <!--Cabeçalho com navegação-->
+    <header>
+        <nav class="menu-principal">
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre-mim">Sobre Mim</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="tecnologias">Tecnologias</a></li>
+                <li><a href="contatos">Contato</a></li>
+            </ul>
         </nav>
     </header>
 
-    <main class="conteudo">
-        <!--Apresentação-->
-        <section class="conteudo-principal">
-            <div class="conteudo-principal-escrito">
-                <h1 class="conteudo-principal-escrito-titulo">Olá, Eu sou Rodrigo Santos!</h1>
-                <h2 class="conteudo-principal-escrito-subtitulo">Desenvolvedor em formação,<br> criando soluções para web e <br> games.</h2>
-                <button id="botao" onclick="location.href='#meus-projetos';" class="conteudo-principal-escrito-botao">Ver Projetos</button>
+    <main>
+
+        <!-- Seção de Apresentação-->
+        <section id="inicio" class="apresentacao">
+            <div class="texto-apresentacao">
+                <h1>Olá, Eu sou Rodrigo Santos!</h1>
+                <h2>Desenvolvedor em formação, criando soluções para web e games.</h2>
+                <button onclick="location.href='#meus-projetos';">Ver Projetos</button>
             </div>
             <img  class="conteudo-principal-imagem" src="assets/img/Programmer-bro.png" alt="imagen ilustrativa">
         </section>
-        <!--Sobre Mim-->
-        <section id="sobre-mim" class="conteudo-secundario">
-            <h3 class="conteudo-secundario-titulo">Sobre Mim!</h3>
-            <p class="conteudo-secundario-paragrafo">Sou um entusiasta do aprendizado contínuo e do desenvolvimento de projetos que unem funcionalidade e design. Com uma visão voltada para resultados, estou construindo minha jornada como desenvolvedor, explorando linguagens de programação, frameworks modernos e técnicas de game design.
+
+        <!--Seção Sobre Mim-->
+        <section id="sobre-mim">
+            <h3>Sobre Mim!</h3>
+            <p>Sou um entusiasta do aprendizado contínuo e do desenvolvimento de projetos que unem funcionalidade e design. Com uma visão voltada para resultados, estou construindo minha jornada como desenvolvedor, explorando linguagens de programação, frameworks modernos e técnicas de game design.
             Minha missão é entregar soluções práticas e envolventes, seja no universo da web ou em simuladores e jogos interativos. Cada linha de código é um passo em direção a projetos que fazem a diferença.</p>
         </section>
-        <!--Tecnologias-->
-        <section id="tecnologias" class="conteudo-tecnologia">
-            <h3 class="conteudo-tecnologia-titulo">Tecnologias</h3>
-            <div class="conteudo-tecnologia-logos">
-                <img class="conteudo-tecnologia-logo-html" src="assets/img/html-5_logo.png" alt="logo HTML5">
-                <img class="conteudo-tecnologia-logo-css" src="assets/img/css-3_logo.png" alt="logo CSS3">
-                <img class="conteudo-tecnologia-logo-javascript" src="assets/img/js_logo.png" alt="logo JavaScript">
-            </div>
 
+        <!--Tecnologias-->
+        <section id="tecnologias">
+            <h3>Tecnologias</h3>
+            <div class="logos-tecnologias">
+                <img src="assets/img/html-5_logo.png" alt="logo HTML5">
+                <img src="assets/img/css-3_logo.png" alt="logo CSS3">
+                <img src="assets/img/js_logo.png" alt="logo JavaScript">
+            </div>
         </section>
-        <!--Projetos-->
-        <sectio id="meus-projetos" class="conteudo-projetos">
-            <h3 class="conteudo-projetos-titulo">Meus Projetos</h3>
-        </sectio>
+
+        <!--Seção de Projetos-->
+        <section id="meus-projetos">
+            <h3>Meus Projetos</h3>
+            <!-- Conteúdo dos projetos será adicionado aqui-->
+        </section>
 
     </main>
 
-    <footer class="rodape">
-        <p class="rodape-copy">&copy; 2024 Rodrigo Santos. Todos os direitos reservados</p>
+    <footer>
+        <p>&copy; 2024 Rodrigo Santos. Todos os direitos reservados</p>
     </footer>
-    <link rel="stylesheet" href="assets/js/script.js">
+
+    <script src="assets/js/script.js"></script>
+    
 </body>
 </html>
