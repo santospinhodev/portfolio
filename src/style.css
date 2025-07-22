@@ -8,8 +8,10 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f9f9f9;
     color: #222;
-    padding: 20px;
     text-align: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 header {
@@ -18,8 +20,10 @@ header {
 
 .container {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
+    padding: 20px;
+    flex: 1;
 }
 
 .perfil {
@@ -27,11 +31,14 @@ header {
     flex-direction: column;
     align-items: center;
     gap: 20px;
-    max-width: 500px;
+    width: 100%;
+    max-width: 700px;
     padding: 20px;
     background-color: white;
     border-radius: 12px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    overflow: hidden;
 }
 
 .perfil img {
@@ -41,10 +48,28 @@ header {
     object-fit: cover;
 }
 
+.perfil ul img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    transition: transform 0.2s;
+}
+
+.perfil ul img:hover {
+    transform: scale(1.1);
+}
+
 .perfil ul {
     list-style: none;
     display: flex;
-    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .perfil button {
@@ -59,6 +84,27 @@ header {
 
 .perfil button:hover {
     background-color: #005fa3;
+}
+
+.footer-creditos {
+    background-color: #f0f0f0;
+    color: #666;
+    font-size: 0.8rem;
+    padding: 1rem 0;
+    width: 100%;
+    text-align: center;
+    border-top: 1px solid #ddd;
+}
+
+.footer-creditos a {
+    color: #0077cc;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.footer-creditos a:hover {
+    text-decoration: underline;
+    color: #005fa3;
 }
 
 @media (max-width: 600px) {
