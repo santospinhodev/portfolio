@@ -245,6 +245,15 @@ body.dark-mode .toggle-theme-btn {
         width: 36px;
         height: 36px;
     }
+    .switch-theme {
+        top: 12px;
+        right: 12px;
+        width: 44px;
+        height: 24px;
+    }
+    header {
+        padding-top: 48px;
+    }
 }
 
 @media (max-width: 800px) {
